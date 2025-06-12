@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíz-Col - Productos Típicos Colombianos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Raíz<span>-Col</span></h1>
+                    <p>Tradición Colombiana</p>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#regiones">Regiones</a></li>
+                    <li><a href="#historia">Nuestra Historia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#" id="logout-link">Cerrar Sesión</a></li> 
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Descubre la <span>Esencia</span> de Colombia</h1>
+            <p class="hero-subtitle">Productos auténticos que cuentan historias, preservan tradiciones y empoderan comunidades</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Explorar Productos</button>
+                <button class="btn-secondary">Conocer Historias</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="culture-icons">
+                <div class="icon-item">🏺</div>
+                <div class="icon-item">🎨</div>
+                <div class="icon-item">🌿</div>
+                <div class="icon-item">🎭</div>
+                <div class="icon-item">🧵</div>
+                <div class="icon-item">☕</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regiones Section -->
+    <section id="regiones" class="regions">
+        <div class="container">
+            <h2 class="section-title">Nuestras <span>Regiones</span></h2>
+            <p class="section-subtitle">Cada región de Colombia tiene su propia identidad, tradiciones y productos únicos</p>
+            
+            <div class="regions-grid">
+                <div class="region-card" data-region="caribe">
+                    <div class="region-image">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <h3>Región Caribe</h3>
+                    <p>Artesanías wayuu, sombreros vueltiaos, y productos del mar</p>
+                </div>
+                
+                <div class="region-card" data-region="andina">
+                    <div class="region-image">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Región Andina</h3>
+                    <p>Café premium, textiles ancestrales, y cerámica tradicional</p>
+                </div>
+                
+                <div class="region-card" data-region="pacifica">
+                    <div class="region-image">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Región Pacífica</h3>
+                    <p>Instrumentos musicales, tallas en madera, y medicina ancestral</p>
+                </div>
+                
+                <div class="region-card" data-region="amazonia">
+                    <div class="region-image">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Amazonía</h3>
+                    <p>Productos naturales, artesanías indígenas, y plantas medicinales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Productos Destacados -->
+<section id="productos" class="featured-products">
+    <div class="container">
+        <h2 class="section-title">Productos <span>Destacados</span></h2>
+        
+        <div class="products-grid">
+
+            <!-- Producto 1 -->
+            <div class="product-card" data-product="sombrero-vueltiao">
+                <div class="product-image">
+                    <img src="https://www.nuestratiendaartesanal.com/wp-content/uploads/2020/06/VU03-Sombrero-Vueltiao-varios.jpg" alt="Sombrero Vueltiao">
+                    <div class="product-overlay">
+                        <button class="btn-view-history">Ver Historia</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Sombrero Vueltiao</h3>
+                    <p class="product-origin">Región Caribe - Córdoba</p>
+                    <p class="product-price">$85.000</p>
+                    <button class="btn-add-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card" data-product="mochila-wayuu">
+                <div class="product-image">
+                    <img src="https://www.bolsoswayuu.com.co/wp-content/uploads/4B100JRYY-mochilas-guajiras-para-mujer.jpg" alt="Mochila Wayuu">
+                    <div class="product-overlay">
+                        <button class="btn-view-history">Ver Historia</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Mochila Wayuu</h3>
+                    <p class="product-origin">Región Caribe - La Guajira</p>
+                    <p class="product-price">$120.000</p>
+                    <button class="btn-add-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card" data-product="cafe-organico">
+                <div class="product-image">
+                    <img src="https://somoscorbera.com/wp-content/uploads/2022/11/410CafeColombia_LME0137-1.webp" alt="Café Orgánico Premium">
+                    <div class="product-overlay">
+                        <button class="btn-view-history">Ver Historia</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Café Orgánico Premium</h3>
+                    <p class="product-origin">Región Andina - Huila</p>
+                    <p class="product-price">$45.000</p>
+                    <button class="btn-add-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product-card" data-product="hamaca-wayuu">
+                <div class="product-image">
+                    <img src="https://hamacasdedioses.com/wp-content/uploads/2021/01/chinchorro-1-9.jpg" alt="Hamaca Wayuu">
+                    <div class="product-overlay">
+                        <button class="btn-view-history">Ver Historia</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Hamaca Wayuu</h3>
+                    <p class="product-origin">Región Caribe - La Guajira</p>
+                    <p class="product-price">$180.000</p>
+                    <button class="btn-add-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product-card" data-product="manta-wayuu">
+                <div class="product-image">
+                    <img src="https://cdn.shopify.com/s/files/1/0266/6276/4597/files/manta_wayuu_colores.jpg" alt="Manta Wayuu">
+                    <div class="product-overlay">
+                        <button class="btn-view-history">Ver Historia</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Manta Wayuu</h3>
+                    <p class="product-origin">Región Caribe - La Guajira</p>
+                    <p class="product-price">$80.000</p>
+                    <button class="btn-add-cart">Agregar al Carrito</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!-- Historia e Identidad -->
+    <section id="historia" class="identity-section">
+        <div class="container">
+            <div class="identity-content">
+                <div class="identity-text">
+                    <h2>Preservando <span>Tradiciones</span></h2>
+                    <p>En Raíz-Col, cada producto cuenta una historia milenaria. Trabajamos directamente con comunidades indígenas, afrodescendientes y campesinas para preservar sus tradiciones ancestrales y garantizar un comercio justo.</p>
+                    <div class="identity-features">
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Comercio Justo</h4>
+                                <p>Pagamos precios justos que empoderan a nuestras comunidades</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-seedling"></i>
+                            <div>
+                                <h4>Sostenibilidad</h4>
+                                <p>Productos ecológicos que respetan el medio ambiente</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Empoderamiento</h4>
+                                <p>Fortalecemos las capacidades de nuestros artesanos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="identity-visual">
+                    <div class="culture-map">
+                        <div class="map-point" style="top: 20%; left: 30%;">
+                            <div class="pulse"></div>
+                            <span>Caribe</span>
+                        </div>
+                        <div class="map-point" style="top: 50%; left: 40%;">
+                            <div class="pulse"></div>
+                            <span>Andina</span>
+                        </div>
+                        <div class="map-point" style="top: 70%; left: 20%;">
+                            <div class="pulse"></div>
+                            <span>Pacífica</span>
+                        </div>
+                        <div class="map-point" style="top: 80%; left: 60%;">
+                            <div class="pulse"></div>
+                            <span>Amazonía</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para Historia de Productos -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-text">
+                    <h2 id="modalTitle"></h2>
+                    <div class="modal-tags">
+                        <span id="modalRegion" class="tag"></span>
+                        <span id="modalOrigin" class="tag"></span>
+                    </div>
+                    <div class="modal-history">
+                        <h3>Historia y Simbolismo</h3>
+                        <p id="modalHistory"></p>
+                    </div>
+                    <div class="modal-significance">
+                        <h3>Significado Cultural</h3>
+                        <p id="modalSignificance"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="productModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-body">
+        <div class="modal-image">
+          <img id="modalImage" src="" alt="">
+        </div>
+        <div class="modal-text">
+          <h2 id="modalTitle">Nombre del Producto</h2>
+          <div class="modal-tags">
+            <span id="modalRegion" class="tag">Región</span>
+            <span id="modalOrigin" class="tag">Origen</span>
+          </div>
+          <div class="modal-history">
+            <p id="modalDescription">Aquí va la historia del producto...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Raíz-Col</h3>
+                    <p>Conectando tradiciones colombianas con el mundo</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#regiones">Regiones</a></li>
+                        <li><a href="#historia">Historia</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-envelope"></i> info@raiz-col.com</p>
+                    <p><i class="fas fa-phone"></i> +57 300 123 4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Raíz-Col. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+<!-- Carrito de Compras -->
+<!-- Botón flotante para mostrar el carrito -->
+<button id="toggle-cart" class="floating-cart-button">🛒</button>
+
+<!-- Carrito flotante -->
+<div id="shopping-cart" class="shopping-cart-popup">
+  <h2>🛒 Carrito de Compras</h2>
+  <ul id="cart-list"></ul>
+  <p id="cart-total">Total: $0</p>
+  <div class="cart-buttons">
+    <button id="checkout-btn" class="btn-checkout">Pagar</button>
+    <button id="close-cart" class="btn-close-cart">Cerrar</button>
+  </div>
+</div>
+
+<!-- Producto de ejemplo -->
+<div class="product-card">
+  <img src="https://via.placeholder.com/100" alt="Producto">
+  <h3>Producto Demo</h3>
+  <p class="product-price">$12000</p>
+  <button class="btn-add-cart">Agregar</button>
+</div>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+</body>
+</html>
