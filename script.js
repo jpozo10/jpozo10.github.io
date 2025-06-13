@@ -39,6 +39,15 @@ const productData = {
         history: 'La hamaca wayuu es mucho más que un lugar de descanso; es el centro de la vida familiar wayuu. Tejida con hilos de algodón o acrílico, cada hamaca requiere de técnicas especializadas que se aprenden desde la infancia. Los diseños varían según el clan familiar y la región específica de La Guajira.',
         significance: 'En la cultura wayuu, la hamaca es donde nacen las historias, donde los abuelos transmiten la sabiduría ancestral a los nietos. Es el lugar de la reflexión, del descanso merecido, de la conversación familiar. Los patrones tejidos narran la historia del territorio y las tradiciones del pueblo wayuu.',
         community: 'Las hamacas son tejidas principalmente por mujeres wayuu que combinan esta actividad con el cuidado de la familia y otras labores. Nuestro programa les permite tener ingresos estables, acceso a materiales de calidad y capacitaciones para perfeccionar sus técnicas, manteniendo vivas estas tradiciones milenarias.'
+    },
+        'manta-wayuu': {
+        title: 'Hamaca Wayuu',
+        region: 'Región Caribe',
+        origin: 'La Guajira',
+        image: '',
+        history: 'La manta wayuu, o wsyuushein, es una pieza fundamental de la identidad cultural y el vestuario tradicional de las mujeres wayuu de la Guajira. No solo es una prenda, sino un símbolo de su sabiduría ancestral, su cosmovisión y su papel central en la sociedad',
+        significance: 'Identidad y orgullo: La manta wayuu representa la identidad de las mujeres indígenas de la Guajira, siendo un símbolo de orgullo y respeto por sus costumbres. ',
+        community: 'la manta wayuu es mucho más que una prenda; es un tesoro cultural que refleja la historia, la sabiduría y la identidad de un pueblo indígena que se ha mantenido firme a pesar de los desafíos. '
     }
 };
 
