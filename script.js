@@ -44,7 +44,7 @@ const productData = {
         title: 'Hamaca Wayuu',
         region: 'Región Caribe',
         origin: 'La Guajira',
-        image: '',
+        image: 'https://i.pinimg.com/736x/a8/75/39/a8753971af8b1b9884658cdadbc41973.jpg',
         history: 'La manta wayuu, o wsyuushein, es una pieza fundamental de la identidad cultural y el vestuario tradicional de las mujeres wayuu de la Guajira. No solo es una prenda, sino un símbolo de su sabiduría ancestral, su cosmovisión y su papel central en la sociedad',
         significance: 'Identidad y orgullo: La manta wayuu representa la identidad de las mujeres indígenas de la Guajira, siendo un símbolo de orgullo y respeto por sus costumbres. ',
         community: 'la manta wayuu es mucho más que una prenda; es un tesoro cultural que refleja la historia, la sabiduría y la identidad de un pueblo indígena que se ha mantenido firme a pesar de los desafíos. '
